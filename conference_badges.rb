@@ -27,8 +27,6 @@ def batch_badge_creator(attendees)
   end
 
 def printer(attendees)
-  name_tag = []
-  batch_badge_creator(attendees).each do |name|
-    name_tag.push(batch_badge_creator(attendees))
+  batch_badge_creator(attendees)
   end
 end
