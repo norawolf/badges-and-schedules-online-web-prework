@@ -28,5 +28,4 @@ def batch_badge_creator(attendees)
 
 def printer(attendees)
   batch_badge_creator(attendees)
-  end
 end
