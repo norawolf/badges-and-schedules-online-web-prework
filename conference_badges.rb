@@ -23,6 +23,4 @@ def batch_badge_creator(attendees)
       name_and_room.push("Hello, #{name}! You'll be assigned to room #{room_number}!")
     end
     name_and_room
-
-  binding.pry
   end
