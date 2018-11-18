@@ -10,7 +10,7 @@ def batch_badge_creator(attendees)
   attendees.each do |name|
     guests.push("Hello, my name is #{name}.")
   end
-  
+
   guests
   end
 
@@ -21,6 +21,6 @@ def batch_badge_creator(attendees)
       name_and_room.push("Hello, #{name}! You'll be assigned to room #{index}!")
     end
     name_and_room
-    
-  binding.pry  
+
+  binding.pry
   end
